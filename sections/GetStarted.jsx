@@ -17,7 +17,7 @@ const GetStarted = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col lg:flex-row gap-8`}
     >
       <motion.div
-        variants={planetVariants("left")}
+        variants={planetVariants('left')}
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
@@ -27,7 +27,7 @@ const GetStarted = () => (
         />
       </motion.div>
       <motion.div
-        variants={fadeIn("left", "tween", 0.2, 1)}
+        variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
         <TypingText title="| How Metaversus works" />
