@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
-import styles from "../styles";
-import { socials } from "../constants";
-import { footerVariants } from "../utils/motion";
+import styles from '../styles';
+import { socials } from '../constants';
+import { footerVariants } from '../utils/motion';
 
 const Footer = () => (
   <motion.footer
@@ -44,16 +44,16 @@ const Footer = () => (
             Copyright © 2024 Metaversus. All rights reserved.
           </p>
           <p className=" font-normal text-[14px] text-secondary-white">
-            Developed by{" "}
+            Developed by{' '}
             <a
               href="https://ilse.io"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="text-white underline uppercase"
             >
               ilse.io
-            </a>{" "}
+            </a>{' '}
             <span className=" text-secondary-white/50">
-              {" "}
+              {' '}
               -- Project by JS Mastery
             </span>
           </p>
