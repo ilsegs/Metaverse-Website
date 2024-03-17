@@ -8,7 +8,7 @@ import { useState } from "react";
 import { exploreWorlds } from "../constants";
 
 const Explore = () => {
-  const [active, setActive] = useState("world-2");
+  const [active, setActive] = useState('world-2');
   return (
     <section className={`${styles.paddings} relative z-10`} id="explore">
       <div className="gradient-02 z-0" />
