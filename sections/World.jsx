@@ -26,7 +26,7 @@ const World = () => (
         textStyles="text-center"
       />
       <motion.div
-        variants={fadeIn("up", "tween", 0.3, 1)}
+        variants={fadeIn('up', 'tween', 0.3, 1)}
         className="relative flex w-full h-[550px] mt-[68px]"
       >
         <img src="/map.png" alt="map" className="w-full h-full object-cover" />

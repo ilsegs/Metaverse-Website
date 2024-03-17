@@ -17,7 +17,7 @@ const About = () => (
     >
       <TypingText title="| About Metaversus" textStyles="text center" />
       <motion.p
-        variants={fadeIn("up", "tween", 0.2, 1)}
+        variants={fadeIn('up', 'tween', 0.2, 1)}
         className="font-normal text-secondary-white text-center mt-[8px] text-[20px] sm:text-[32px]"
       >
         <span className="font-extrabold text-white">Metaverse</span> is a new

@@ -15,7 +15,7 @@ const Feedback = () => (
       className={`${styles.innerWidth} mx-auto flex-col flex lg:flex-row gap-6`}
     >
       <motion.div
-        variants={fadeIn("right", "tween", 0.2, 1)}
+        variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.5] lg:max-w-[370px] flex flex-col justify-end gradient-05 p-4 sm:p-8 rounded-[32px] border-[1px] border-[#6a6a6a] relative"
       >
         <div className="feedback-gradient" />
@@ -34,7 +34,7 @@ const Feedback = () => (
         </p>
       </motion.div>
       <motion.div
-        variants={fadeIn("left", "tween", 0.2, 1)}
+        variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex-1 flex justify-center items-center relative"
       >
         <img
