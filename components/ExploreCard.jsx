@@ -1,14 +1,14 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
-import styles from "../styles";
-import { fadeIn } from "../utils/motion";
+import { motion } from 'framer-motion';
+import styles from '../styles';
+import { fadeIn } from '../utils/motion';
 
 const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
   <motion.div
     variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
     className={`relative flex items-center justify-center min-w-[170px] h-[700px] transition-[flex] duration-[0.7s ease-out-flex cursor-pointer  ${
-      active === id ? "flex-[10] lg:flex-[3.5]" : "flex-[2] lg:flex-[0.5]"
+      active === id ? 'flex-[10] lg:flex-[3.5]' : 'flex-[2] lg:flex-[0.5]'
     }`}
     onClick={() => handleClick(id)}
   >
@@ -36,7 +36,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
           Enter this metaverse
         </p>
         <h2 className="font-semibold text-white mt-[24px] text-[24px] sm:text-[32px]">
-          {" "}
+          {' '}
           {title}
         </h2>
       </div>
